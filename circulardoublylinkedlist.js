@@ -14,7 +14,7 @@ export class CircularDoublyLinkedList {
    #tail = null;   get tail() { return this.#tail   }
 
    #initialize(data) { 
-      const node = new CircularLinkedList.#Node(data);  
+      const node = new CircularDoublyLinkedList.#Node(data);  
       [node.next, node.prev,  // in the beginning, there was only node
       this.#head, this.#tail] = [node, node, node, node];
       this.#incrLength(1);
@@ -100,7 +100,7 @@ export class CircularDoublyLinkedList {
    }   
 
    createAndInsertNode(dataIn, beforeNode, afterNode) {
-      const newNode = new CircularLinkedList.#Node(dataIn); 
+      const newNode = new CircularDoublyLinkedList.#Node(dataIn); 
       this.#link(beforeNode, newNode, afterNode).#incrLength(1);
       return newNode
    }
