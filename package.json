@@ -1,0 +1,27 @@
+{
+  "name": "wheelist",
+  "version": "0.1.0",
+  "description": "a simple and extendable circular doubly-linked-list implementation in ES2022",
+  "main": "wheelist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diopsidedesign/wheelist.git"
+  },
+  "keywords": [
+    "circular",
+    "linked",
+    "list",
+    "doubly",
+    "data",
+    "structure"
+  ],
+  "author": "diopside",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diopsidedesign/wheelist/issues"
+  },
+  "homepage": "https://github.com/diopsidedesign/wheelist#readme"
+}
